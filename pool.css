@@ -5,7 +5,6 @@
 <title>Pool CSS</title>
 <style> 
 	body {
-		background-image: url('concrete.jpg');
 		font-family: sans-serif;
 	}
 	
@@ -14,11 +13,18 @@
 		font-size: 36px;
 		color: #0077ff;
 	}
+	
+	h2 {
+		text-align: center;
+		font-size: 18px;
+		color: green;
+		
+	}
 	img {
 		border-radius: 10px;
 		display: block;
 		height: 400px;
-		max-width: 100%;
+		width: 100%;
 		margin: auto;
 		
 	}
@@ -40,8 +46,8 @@
 	}
 
 	@keyframes swimmer1 {
-    0%   {left: 0px;}
-    100% {left: 800px;}
+    0%   {left: 0%;}
+    100% {left: 91%;}
 	}
 	.center {
 		background-image: url('swimmer2.jpg');
@@ -52,12 +58,13 @@
 		border-radius: 50px;
 		width: 100px;
 		height: 100px;
-		animation: swimmer2 14s;
+		animation: swimmer2 13s;
 	}
 	
 	@keyframes swimmer2 {
-    0%   {left: 0px;}
-    100% {left: 800px;}
+    0%   {left: 0%;}
+    25%	 {left: 50%}	
+    100% {left: 91%;}
 	}
 	
 	.bottomleft {
@@ -69,13 +76,14 @@
 		border-radius: 50px;
 		width: 100px;
 		height: 100px;
-		animation: swimmer1 10s;
+		animation: swimmer1 11s;
 	}
 	
 	@keyframes swimmer3 {
-    0%   {left: 0px;}
-    100% {left: 800px;}
+    0%   {left: 0%;}
+    100% {left: 91%;}
 	}
+	
 </style>
 </head>
 </html>
