@@ -1,0 +1,81 @@
+*{
+padding : 0;
+margin : 0;
+border : 0;
+}
+body{
+
+}
+.window{
+display : block;
+width : 100vw;
+overflow : auto;
+margin : 0;
+}
+
+}
+.concrete{
+
+}
+.lanes{
+background-image: url("water.jpg");
+float : left;
+clear : none;
+min-width : 100px;
+min-height : 100px;
+}
+.lane1{
+
+float : none;
+clear : both;
+height : 16.3vh;
+width : 80vw;
+border-bottom: .5vh yellow dashed;
+}
+.lane2{
+
+float : none;
+clear : both;
+height : 16.3vh;
+width : 80vw;
+border-bottom: .5vh yellow dashed;
+}
+.lane3{
+
+float : none;
+clear : both;
+height : 16.3vh;
+width : 80vw;
+border-bottom: .5vh yellow dashed;
+}
+.lane4{
+
+float : none;
+clear : both;
+height : 16.3vh;
+width : 80vw;
+border-bottom: .5vh yellow dashed;
+}
+.lane5{
+
+float : none;
+clear : both;
+height : 16.3vh;
+width : 80vw;
+border-bottom: .5vh yellow dashed;
+}
+.lane6{
+
+float : none;
+clear : both;
+height : 16.3vh;
+width : 80vw;
+
+}
+.concrete{
+background-image: url("concrete.jpg");
+float : left;
+clear : none;
+height : 100vh;
+width : 10vw;
+}
