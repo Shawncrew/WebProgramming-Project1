@@ -12,8 +12,8 @@ width : 100vw;
 overflow : auto;
 margin : 0;
 background-image: url("concrete.jpg");
-height : 110vh;
-width : 100vw;
+height : 100vh;
+
 
 }
 
@@ -38,7 +38,7 @@ min-height : 100px;
 
 float : none;
 clear : both;
-height : 16.3vh;
+height : 15.5vh;
 width : 80vw;
 border-bottom: .5vh yellow dashed;
 }
@@ -46,7 +46,7 @@ border-bottom: .5vh yellow dashed;
 
 float : none;
 clear : both;
-height : 16.3vh;
+height : 15.5vh;
 width : 80vw;
 border-bottom: .5vh yellow dashed;
 }
@@ -54,7 +54,7 @@ border-bottom: .5vh yellow dashed;
 
 float : none;
 clear : both;
-height : 16.3vh;
+height : 15.5vh;
 width : 80vw;
 border-bottom: .5vh yellow dashed;
 }
@@ -62,7 +62,7 @@ border-bottom: .5vh yellow dashed;
 
 float : none;
 clear : both;
-height : 16.3vh;
+height : 15.5vh;
 width : 80vw;
 border-bottom: .5vh yellow dashed;
 }
@@ -70,7 +70,7 @@ border-bottom: .5vh yellow dashed;
 
 float : none;
 clear : both;
-height : 16.3vh;
+height : 15.5vh;
 width : 80vw;
 border-bottom: .5vh yellow dashed;
 }
@@ -78,19 +78,19 @@ border-bottom: .5vh yellow dashed;
 
 float : none;
 clear : both;
-height : 16.3vh;
+height : 15.5vh;
 width : 80vw;
 
 }
 .lane1pic {
 		background-image: url('swimmer1.jpg');
 		background-size: cover;
-		position: absolute;
-		top: 40px;
-		left: 16px;
+		position: relative;
+		height: 16vh;
+		width: 16vh;
+		left: -10vw;
 		border-radius: 50px;
-		width: 100px;
-		height: 100px;
+		
 		animation: swimmer1 10s;
 	}
 
@@ -101,57 +101,52 @@ width : 80vw;
 	.lane2pic {
 		background-image: url('swimmer2.jpg');
 		background-size: cover;
-		position: absolute;
-		top: 150px;
-		left: 16px;
+		position: relative;
+		height: 16vh;
+		width: 16vh;
+		left: -10vw;
 		border-radius: 50px;
-		width: 100px;
-		height: 100px;
 		animation: swimmer1 14s;
 	}
 	
 	.lane3pic {
 		background-image: url('swimmer3.jpg');
 		background-size: cover;
-		position: absolute;
-		top: 260px;
-		left: 16px;
+		position: relative;
+		height: 16vh;
+		width: 16vh;
+		left: -10vw;
 		border-radius: 50px;
-		width: 100px;
-		height: 100px;
 		animation: swimmer1 11s;
 	}
 	.lane4pic {
 		background-image: url('swimmer4.jpg');
 		background-size: cover;
-		position: absolute;
-		top: 375px;
-		left: 16px;
+		position: relative;
+		height: 16vh;
+		width: 16vh;
+		left: -10vw;
 		border-radius: 50px;
-		width: 100px;
-		height: 100px;
 		animation: swimmer1 12s;
 	}
 	.lane5pic {
 		background-image: url('swimmer5.jpg');
 		background-size: cover;
-		position: absolute;
-		top: 485px;
-		left: 16px;
+		position: relative;
+		height: 16vh;
+		width: 16vh;
+		left: -10vw;
 		border-radius: 50px;
-		width: 100px;
-		height: 100px;
 		animation: swimmer1 13s;
 	}
 	.lane6pic {
 		background-image: url('swimmer6.jpg');
 		background-size: cover;
-		position: absolute;
-		top: 600px;
-		left: 16px;
+		position: relative;
+		height: 16vh;
+		width: 16vh;
+		left: -10vw;
 		border-radius: 50px;
-		width: 100px;
-		height: 100px;
 		animation: swimmer1 12s;
 	}
 	
@@ -163,6 +158,6 @@ width : 80vw;
 background-image: url("concrete.jpg");
 float : left;
 clear : none;
-height : 110vh;
+height : 100vh;
 width : 10vw;
 }
