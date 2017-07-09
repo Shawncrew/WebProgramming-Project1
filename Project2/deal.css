@@ -1,0 +1,41 @@
+body{
+	background: linear-gradient(grey, black);
+	text-align: center;
+}
+.container{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-around;
+}
+image{
+	float: left;
+}
+.text{
+	left: 0;
+    position:absolute;
+    text-align:center;
+    top: 30px;
+    width: 100%
+}
+.case{
+	text-align: center;
+	flex: 0 0 32%;
+	height: 50px;
+	margin-top: -20px;
+	margin-bottom: 150px;
+	
+}
+
+h1{
+	
+	text-align: center;
+	font-style: bold;
+	font-size: 36px;
+	display: inline-block;
+	color: white;
+}
+
+h2{
+	text-align: center;
+	display: inline-block;
+}
