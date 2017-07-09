@@ -11,18 +11,18 @@
 
 <body>
 	
-	<input type = "reset">
+	<input type = "reset" action = "sessionrestart.php">
 	<h1> Deal or No Deal</h1>
 	<div class = "container">
-		<div class = "case"> <img src = "case.png"></img> </div>
-		<div class = "case"> <img src = "case.png"></img> </div>
-		<div class = "case"> <img src = "case.png"></img> </div>
-		<div class = "case"> <img src = "case.png"></img> </div>
-		<div class = "case"> <img src = "case.png"></img> </div>
-		<div class = "case"> <img src = "case.png"></img> </div>
-		<div class = "case"> <img src = "case.png"></img> </div>
-		<div class = "case"> <img src = "case.png"></img> </div>
-		<div class = "case"> <img src = "case.png"></img> </div>
+		<div class = "case"> </div>
+		<div class = "case"> </div>
+		<div class = "case"> </div>
+		<div class = "case"> </div>
+		<div class = "case"> </div>
+		<div class = "case"> </div>
+		<div class = "case"> </div>
+		<div class = "case"> </div>
+		<div class = "case"> </div>
 		
 	</div>	
 </body>

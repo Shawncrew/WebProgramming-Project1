@@ -7,9 +7,7 @@ body{
 	flex-wrap: wrap;
 	justify-content: space-around;
 }
-image{
-	float: left;
-}
+
 .text{
 	left: 0;
     position:absolute;
@@ -18,12 +16,17 @@ image{
     width: 100%
 }
 .case{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	background-image: url('case.png');
+	background-position: center;
+	background-size: fill;
+	background-repeat: no-repeat;
 	text-align: center;
-	flex: 0 0 32%;
-	height: 50px;
-	margin-top: -20px;
-	margin-bottom: 150px;
-	
+	flex: 0 0 33%;
+	height: 220px;
+	margin-top: -35px;
 }
 
 h1{
@@ -36,6 +39,6 @@ h1{
 }
 
 h2{
-	text-align: center;
-	display: inline-block;
+	font-size: 48px;
+	color: white;
 }
