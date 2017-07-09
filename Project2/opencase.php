@@ -1,6 +1,20 @@
 <?php
 session_start();
 
+if(isset($_POST["caseNum"])) {
+	$briefcases = $_SESSION['briefcases'];
+	$caseNum = $_POST["caseNum"];
+	$briefcases[$caseNum]->setRevealed();
+
+}
+header('Location: dealOrNoDeal.php');
+
+
+
+
+
+
+
 class Briefcase {
 	public $number;
 	public $value;
@@ -58,51 +72,4 @@ class Briefcase {
 		echo "User Chosen? " . $this->userChosen . "<br><br>";
 	}
 }
-
-function generateBriefcases() {
-	$valueArray = array(100, 500, 1000, 5000, 10000, 50000, 100000, 500000, 1000000);
-	shuffle($valueArray);
-	$_SESSION['briefcasesCreated'] = true;
-	$briefcaseArray = array();
-	for($i = 0 ; $i<9 ; $i++) {
-		array_push($briefcaseArray, new Briefcase($i, $valueArray[$i]));	
-	}
-	$_SESSION['briefcases'] = $briefcaseArray;
-}
-
-function generateOffer() {
-	$sumOfValues = 0;
-	$casesRemaining = 0;
-	$briefcaseArray = $_SESSION['briefcases'];
-	for($i = 0 ; $i<9 ; $i++) {
-		if(!$briefcaseArray[$i]->isRevealed()) {
-			$sumOfValues = $sumOfValues + $briefcaseArray[$i]->getValue();
-			$casesRemaining++;
-		}
-	}
-	$offer = $sumOfValues/$casesRemaining;
-	
-	return $offer;
-}
-
-function showCases() {
-	$briefcaseArray = $_SESSION['briefcases'];
-	for($i = 0 ; $i<9 ; $i++) {
-		$briefcaseArray[$i]->showAll();	
-	}
-}
-
-if(!isset($_SESSION['briefcases'])) {
-	generateBriefcases();
-}
-?>
-
-
-<form action="sessionrestart.php">
-	<input type='submit' value="New Game">
-</form>
-<br>
-<?php
-echo "Current Offer: $" . generateOffer() . "<br><br>";
-showCases();
 ?>
