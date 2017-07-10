@@ -127,8 +127,8 @@
 		</div>
 		<div id="takeOffer" class="overlay">
 			<div class="popup">
-			<h2>You made $<?php echo $offer; ?>!</h2>
-			<h2>Your case contained $ <?php echo $_SESSION['briefcases'][$_SESSION['chosenBriefCase']]->getValue(); ?> </h2>
+			<h1>You made $<?php echo $offer; ?>!</h1>
+			<h1>Your case contained $ <?php echo $_SESSION['briefcases'][$_SESSION['chosenBriefCase']]->getValue(); ?> </h1>
 			<form action='sessionrestart.php'>
 				<input type='submit' value='New Game'>
 			</form>

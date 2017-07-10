@@ -4,7 +4,7 @@ font-size: 20px;
 }
 #window {
 	background: linear-gradient(grey, black);
-	height: 100vh;
+	height: 150vh;
 	width: 100vw;
 	margin: -10px;
 
@@ -71,8 +71,9 @@ font-size: 20px;
 	padding-top: 20px;
 }
 .openCase {
-	background-image: url("opencase.jpg");
+	background-image: url("openCase.png");
 	background-repeat: no-repeat;
+	background-size: fill;
 	height: 100%;
 	width: 100%;
 	background-position:center center;
@@ -138,4 +139,6 @@ font-size: 20px;
   text-decoration: none;
   color: #666;
 }
-
+h2{
+	color: white;
+}
