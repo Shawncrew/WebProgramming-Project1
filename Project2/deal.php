@@ -45,7 +45,7 @@
 					if (!isset($_SESSION['chosenBriefCase'])) {
 						echo "
 						
-								<form action='chooseCase.php' method='POST'>
+								<form action='choosecase.php' method='POST'>
 										<input type='hidden' value=$caseNum name='caseNum' />
 										<input type='submit' value='Choose Case'>
 									</form>
