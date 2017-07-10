@@ -12,6 +12,18 @@
 </head>
 
 <body>
+		<div id="instructions" class="overlay">
+			<div class="popup">
+			<div class="close">
+				<a href="#">&times;</a>
+			</div>
+			<h2>How To Play</h2>
+			<p>
+			1.) Choose a case. Each case contains either $100, $500, $1000, $5000, $10000, $50000, $100000, $500000, or $1000000.
+			<br>2.) Reveal cases one and a time and try to obtain the highest offer from the game to buy back your case.
+			
+			</div>
+		</div>
 	<div id="window">
 		<div id="titleBar">
 			Deal or No Deal
@@ -135,18 +147,7 @@
 			
 			</div>
 		</div>
-		<div id="instructions" class="overlay">
-			<div class="popup">
-			<div class="close">
-				<a href="#">&times;</a>
-			</div>
-			<h2>How To Play</h2>
-			<p>
-			1.) Choose a case. Each case contains either $100, $500, $1000, $5000, $10000, $50000, $100000, $500000, or $1000000.
-			<br>2.) Reveal cases one and a time and try to obtain the highest offer from the game to buy back your case.
-			
-			</div>
-		</div>
+		
 	</div>
 	
 </body>
